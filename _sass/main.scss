@@ -1,0 +1,49 @@
+@function vh($n) {
+    $result: calc(var(--vh, 1vh) * #{$n});
+    @return $result;
+}
+
+@function vw($n) {
+    $result: calc(var(--vw, 1vw) * #{$n});
+    @return $result;
+}
+
+@function vmin($n) {
+    $result: calc(var(--vmin, 1vmin) * #{$n});
+    @return $result;
+}
+
+@function vmax($n) {
+    $result: calc(var(--vmax, 1vmax) * #{$n});
+    @return $result;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    width: vw(100);
+    height: vh(100);
+    position: relative;
+    overflow: hidden;
+    perspective: vmax(10);
+}
+
+#map-container {
+    position: absolute;
+    left: vw(-10);
+    top: vh(-10);
+    right: vw(-10);
+    bottom: vh(-10);
+    transform-style: preserve-3d;
+    transform-origin: center center;
+}
+
+#map {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
