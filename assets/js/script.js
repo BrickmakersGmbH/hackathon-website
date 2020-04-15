@@ -12,7 +12,7 @@ const map = new mapboxgl.Map({
 
 const mapContainer = document.getElementById('map-container');
 
-const setMapContainerRotation = (event) => {
+function setMapContainerRotation(event) {
     const rotateX = 1 - (event.clientY / document.body.clientHeight) * 2;
     const rotateY = 1 - (event.clientX / document.body.clientWidth) * 2;
     mapContainer.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
