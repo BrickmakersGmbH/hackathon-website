@@ -12,13 +12,18 @@ const map = new mapboxgl.Map({
 
 const mapContainer = document.getElementById('map-container');
 
-function setMapContainerRotation(event) {
+function setMouseMoveMapContainerRotation(event) {
     const rotateX = 1 - (event.clientY / document.body.clientHeight) * 2;
     const rotateY = 1 - (event.clientX / document.body.clientWidth) * 2;
     mapContainer.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
 };
 
-document.addEventListener('mousemove', setMapContainerRotation, true);
+function setDeviceMotionMapContainerRotation(event) {
+    console.log(event.accelerationIncludingGravity);
+}
+
+document.addEventListener('mousemove', setMouseMoveMapContainerRotation, true);
+window.addEventListener('devicemotion', setDeviceMotionMapContainerRotation, true);
 
 // helper
 
