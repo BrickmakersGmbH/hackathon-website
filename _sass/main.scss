@@ -20,6 +20,7 @@
 
 body {
     margin: 0;
+    font-family: "proxima-nova";
 }
 
 header {
@@ -55,4 +56,74 @@ header {
     top: 0;
     right: 0;
     bottom: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: vw(100);
+    height: vh(100);
+}
+
+#section-1 {
+    background-color: #de095c;
+}
+
+#section-2 {
+    background-color: #090c35;
+}
+
+p {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    width: vw(50);
+    white-space: normal;
+    margin: 20px;
+}
+
+a {
+    color: #090c35;
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+form {
+    color: #ffffff;
+    width: vw(50);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;;
+}
+
+label {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 1rem;
+}
+
+input {
+    border: none;
+    padding: 0;
+    margin: 0;
+    padding: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-100 {
+    width: 100%;
 }

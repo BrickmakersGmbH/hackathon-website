@@ -4,7 +4,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoic2NoYXVib2dhIiwiYSI6ImNrN3VuaDhiMDE5NGkzZnF0d
 
 const map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/schauboga/ck7uomjjm1k7e1imqlm50hqvl',
+    style: 'assets/style.json',
     center: [7.5890, 50.3569],
     zoom: 9,
     interactive: false
