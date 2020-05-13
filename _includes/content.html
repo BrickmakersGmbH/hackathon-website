@@ -16,36 +16,37 @@
         <p>
             Zusätzlich warten attraktive Preise, leckeres Catering, eine coole Location und jede Menge Spaß. Klingt gut?
         </p>
-        <a>
-            JAP, ich will mich anmelden
-        </a>
+        <button onclick="scrollToElement('#section-2')">
+            Hier geht's zur Anmeldung
+        </button>
     </section>
     <section id="section-2">
         <form>
-            <label class="w-45">
+            <label style="grid-area: firstname;">
                 Vorname *
-                <input class="w-100" required/>
+                <input required />
             </label>
-            <label class="w-45">
-                Name *
-                <input class="w-100" required/>
+            <label style="grid-area: lastname;">
+                Nachname *
+                <input required />
             </label>
-            <label class="w-45">
+            <label style="grid-area: email;">
                 E-Mail *
-                <input class="w-100" type="email" required/>
+                <input type="email" required />
             </label>
-            <label class="w-45">
+            <label style="grid-area: company;">
                 Unternehmen
-                <input class="w-100"  />
+                <input />
             </label>
-            <label class="w-100">
+            <label style="grid-area: role;">
                 Rolle
-                <input class="w-100"  />
+                <input />
             </label>
-            <label class="w-100">
+            <label style="grid-area: suggestion;">
                 Themenvorschlag
-                <input class="w-100" />
+                <input />
             </label>
+            <input class="submit" type="submit" style="grid-area: submit;" />
         </form>
     </section>
 </main>

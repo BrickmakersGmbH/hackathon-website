@@ -1,5 +1,4 @@
 // mapboxgl
-
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2NoYXVib2dhIiwiYSI6ImNrN3VuaDhiMDE5NGkzZnF0dHR0dWJsZzAifQ.aC2Z3EG5ETarbmeCP7mXdQ';
 
 const map = new mapboxgl.Map({
@@ -25,6 +24,19 @@ function setDeviceMotionMapContainerRotation(event) {
 document.addEventListener('mousemove', setMouseMoveMapContainerRotation, true);
 window.addEventListener('devicemotion', setDeviceMotionMapContainerRotation, true);
 
+// scrolling
+
+function scrollToElement(selector) {
+    const element = document.querySelector(selector);
+    element.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+}
+
+// particles
+
+particlesJS.load('section-2', '/assets/config/particles.json', () => {
+    console.log('callback - particles.js config loaded');
+});
+
 // helper
 
 function onResize() {
@@ -44,4 +56,3 @@ function setViewProperties() {
 window.addEventListener('resize', onResize, true);
 
 setViewProperties();
-
