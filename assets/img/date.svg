@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Date</title>
+    <g id="Date" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#090c35" stroke-width="1.5" x="1.75" y="6.75" width="31.5" height="24.5" rx="2"></rect>
+        <line x1="3.08333333" y1="14" x2="32.25" y2="14" id="Line" stroke="#090c35" stroke-width="1.5" stroke-linecap="square"></line>
+        <line x1="8.5" y1="4" x2="8.5" y2="9" id="Line-2" stroke="#090c35" stroke-width="1.5" stroke-linecap="square"></line>
+        <line x1="26.5" y1="4" x2="26.5" y2="9" id="Line-2-Copy" stroke="#090c35" stroke-width="1.5" stroke-linecap="square"></line>
+        <polyline id="Path-2" stroke="#090c35" stroke-width="1.5" points="12.6666667 22 16.0355149 26 23.3333333 18"></polyline>
+    </g>
+</svg>

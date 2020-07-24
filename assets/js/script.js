@@ -33,7 +33,7 @@ function scrollToElement(selector) {
 
 // particles
 
-particlesJS.load('section-2', '/assets/config/particles.json', () => {
+particlesJS.load('section-1', '/assets/config/particles.json', () => {
     console.log('callback - particles.js config loaded');
 });
 

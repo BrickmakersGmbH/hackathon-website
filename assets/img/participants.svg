@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Teilnehmer</title>
+    <g id="Teilnehmer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M26.9,31.1068541 C26.9,26.9786487 26,22.7019498 20.9979953,22.7072758 C20.5872127,22.7077132 19.6762097,23.5632499 17.45,23.5632499 C15.2237903,23.5632499 14.2080908,22.7019498 13.9235958,22.7019498 C8.92340051,22.7019498 8,26.9711297 8,31.1068541 C8,31.1068541 26.9,31.1068541 26.9,31.1068541 Z" id="Oval" stroke="#090c35" stroke-width="1.5"></path>
+        <circle id="Oval" stroke="#090c35" stroke-width="1.5" cx="17.45" cy="15.5" r="4.5"></circle>
+        <path d="M34.26,26.6875571 C34.26,23.8567877 33.6428571,20.9241942 30.2129111,20.9278395 C29.9312315,20.9281462 29.3065438,21.5147999 27.78,21.5147999" id="Path" stroke="#090c35" stroke-width="1.5"></path>
+        <circle id="Oval-Copy-2" stroke="#090c35" stroke-width="1.5" cx="27.78" cy="15.0857143" r="3.08571429"></circle>
+        <path d="M7.22,26.6875571 C7.22,23.8567877 6.60285714,20.9241942 3.17291106,20.9278395 C2.89123153,20.9281462 2.26654381,21.5147999 0.74,21.5147999" id="Path" stroke="#090c35" stroke-width="1.5" transform="translate(3.980000, 23.807698) scale(-1, 1) translate(-3.980000, -23.807698) "></path>
+        <circle id="Oval-Copy-2" stroke="#090c35" stroke-width="1.5" transform="translate(7.220000, 15.085714) scale(-1, 1) translate(-7.220000, -15.085714) " cx="7.22" cy="15.0857143" r="3.08571429"></circle>
+    </g>
+</svg>
