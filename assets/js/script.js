@@ -12,9 +12,11 @@ const map = new mapboxgl.Map({
 const mapContainer = document.getElementById('map-container');
 
 function setMouseMoveMapContainerRotation(event) {
-    const rotateX = 1 - (event.clientY / document.body.clientHeight) * 2;
-    const rotateY = 1 - (event.clientX / document.body.clientWidth) * 2;
-    mapContainer.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
+    if(window.outerWidth > 414) {
+        const rotateX = 1 - (event.clientY / document.body.clientHeight) * 2;
+        const rotateY = 1 - (event.clientX / document.body.clientWidth) * 2;
+        mapContainer.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`
+    }
 };
 
 function setDeviceMotionMapContainerRotation(event) {
@@ -22,7 +24,6 @@ function setDeviceMotionMapContainerRotation(event) {
 }
 
 document.addEventListener('mousemove', setMouseMoveMapContainerRotation, true);
-window.addEventListener('devicemotion', setDeviceMotionMapContainerRotation, true);
 
 // scrolling
 
