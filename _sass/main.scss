@@ -59,6 +59,23 @@ header {
     transition: all ease-in-out 300ms;
 }
 
+#date-banner {
+    position: absolute;
+    top: vh(37.5);
+    z-index: 2;
+    left: vw(30);
+    @media screen and (min-width: 1024px) {
+        left: vw(45);
+    }
+}
+
+#powered-by {
+    position: absolute;
+    bottom: vh(15);
+    right: vw(5);
+    z-index: 1;
+}
+
 #map-container {
     position: absolute;
     left: vw(-10);
